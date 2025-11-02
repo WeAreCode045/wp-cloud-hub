@@ -137,3 +137,24 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Supabase
+.branches
+.temp
+
+# Devcontainers
+.devcontainer/devcontainer.json
+.devcontainer/devcontainer.jsonc
+.devcontainer/docker-compose.yml
+.devcontainer/docker-compose.override.yml
+.devcontainer/Dockerfile
+.devcontainer/Dockerfile.*
+.devcontainer/*.sh
+.devcontainer/*.env
+.devcontainer/.env
+.devcontainer/.env.local
+.devcontainer/.env.*.local
+.devcontainer/.vscode/**
+.devcontainer/.codespaces/**
+.devcontainer/.gitignore
+.devcontainer/.dockerignore
